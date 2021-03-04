@@ -29,7 +29,7 @@ function GifView(props) {
                                                         className="btn btn-danger"
                                                     >
                                                         Delete
-                                                    </button>
+                        </button>
                                                 </div>
                                             </div>
                                         </div>

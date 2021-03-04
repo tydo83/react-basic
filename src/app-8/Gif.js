@@ -69,11 +69,7 @@ export default class Gif extends Component {
                         Search
                     </button>
                 </form>
-                <GifView 
-                    giphyArray={giphyArray} 
-                    isLoading={isLoading} 
-                    handleDeleteByID={this.handleDeleteByID}
-                />
+                <GifView giphyArray={giphyArray} isLoading={isLoading} handleDeleteByID={this.handleDeleteByID}/>
             </div>
         );
     }

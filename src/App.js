@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import Gif from './app-8/Gif'
+import Parent from './app-10/Parent'
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        <Gif/>
+        <Parent />
       </div>
     )
   }
